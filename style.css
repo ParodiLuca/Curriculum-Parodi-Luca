@@ -1,0 +1,70 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 20px; 
+    padding: 20px; 
+    background: rgb(122,188,231);
+    background: linear-gradient(184deg, rgba(122,188,231,1) 17%, rgba(145,215,230,1) 62%);
+ 
+}
+
+
+.colonna-destra{
+    padding-left: 3%;
+    line-height: 30px;
+    font-size:17px;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(184deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%, rgba(73,73,159,1) 100%);
+}
+
+.colonne{
+    display: flex;
+}
+
+.colonna-sinistra{
+    padding-left: 3%;
+    line-height: 30px;
+    font-size: 17px;
+    background: rgb(255,255,255);
+    background: linear-gradient(184deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 61%, rgba(73,73,159,1) 100%);
+}
+
+#fotoprofilo{
+    box-shadow: 10px 10px rgba(96, 94, 94, 0.468);
+    border-radius: 50px;
+    width: 220 px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#spaziotitolo{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    margin: 100px;
+    margin-left: 15px;
+}
+h2{
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+#datipersonali{
+    font-size: 15px;
+}
+
+#scittesinistra{
+    margin: 20px;
+}
+#datipersonali2{
+    font-size: 16px;
+}
